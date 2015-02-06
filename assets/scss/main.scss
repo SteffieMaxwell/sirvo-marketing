@@ -1,0 +1,189 @@
+@import "settings";
+@import "jpreloader.css";
+@import "animate.min.css";
+@import "../../bower_components/foundation/scss/foundation";
+
+/**
+*
+*	Slide 1
+*	Wine Glass Section
+*
+*
+**/
+.tagline{
+	padding-top:2em;
+	text-align: center;
+	vertical-align:bottom;
+	letter-spacing:.2em;
+	padding-bottom: 2%;
+	color:black;
+}
+#wineglass-section{
+	h1{
+		font-size: 2.00rem;
+	}
+	background:url("../img/spill/layer_2.png") no-repeat bottom center / 100% auto;
+	padding: 4.5em 0px 10px;
+
+}
+
+#early-access-form{
+	padding-right:none;
+	letter-spacing:.2em;
+	float:right;
+	text-transform: uppercase;
+	text-align: left;
+	background: transparent;
+	max-width: 100%;
+	vertical-align:right;
+
+}
+
+
+/**
+*
+*	Slide 2
+*	Get Section
+*
+*
+**/
+#get-section{
+	h1,h2,h3,h4,h5,h6,p,span,{
+		color:white;
+		letter-spacing:.2em;
+		padding-left:.5em;
+		font-family: 'FuturaLight';
+		padding-top: 40px;
+	}
+	b{
+		font-family: 'FuturaMedium';
+		font-weight: 400;
+
+	}
+	padding-bottom:5em;
+
+}
+.bold{
+	letter-spacing:.2em;
+	padding-left:.2em;
+	background-color: rgb(244, 69, 0);
+}
+
+/**
+*
+*	Slide 3
+*	Hand Section
+*
+*
+**/
+#hand-section{
+	background:#F44500 url("../img/hand/layer_1.png") no-repeat bottom right / 100% auto;
+}
+#hand-text{
+	margin-top: 5%;
+	vertical-align:bottom;
+	display:none;
+	letter-spacing:.2em; 
+}
+
+@media only screen and (min-height: 400px) and (max-height:800px) {
+#hand-text{
+	padding-top:10em;
+}
+}
+
+@media only screen and (min-height: 800px) and (max-height:1200px) {
+#hand-text{
+	padding-top:19em;
+}
+}
+/**
+*
+*	Slide 4
+*	Bowl Section
+*
+*
+**/
+#emptybowl-content{
+	h1,h2,h3,h4,h5,h6,p,b,span{
+	color:black !important;
+	}
+	display:none;
+	letter-spacing:.2em; 
+}
+#bowl-section{
+	h1,h2,h3,h4,h5,h6,p,b{
+		color:white;
+	}
+	text-align:center;
+	letter-spacing:.2em; 
+	background:#FFFFFF url("../img/bowl/layer_1.png") no-repeat center center / contain;
+}
+@media only screen and (min-height: 600px) and (max-height:800px) {
+#bowl-content{
+	padding-top:8em;
+}
+}
+
+@media only screen and (min-height: 800px) and (max-height:1200px) {
+#bowl-content{
+	padding-top:14em;
+	letter-spacing:.2em; 
+}
+}
+
+/**
+*
+*	Slide 5
+*	Connect Section
+*
+*
+**/
+#connect-section{
+	background-image: url("../img/connectthedots.png");
+	background-position: top center;
+	background-repeat:no-repeat;
+}
+#footer{
+	display:none;
+	text-align:right;
+}
+.footer-links{
+	overflow:visible !important;
+}
+
+ /**
+ *
+ *	Media Queries
+ *
+ **/
+ //Small Width
+ @media only screen and (max-width: 900px) {
+.get{
+	display:block;
+	padding-left:0px;
+}
+#slogan{
+	display:none;
+}
+#hand-text{
+	padding-top:22em;
+}
+#bowl-section{
+	h1,h2,h3,h4,h5,h6,p,b{
+		color:black;
+	}
+	text-align:center;
+	background:#FFFFFF no-repeat center center / contain;
+}
+#bowl-content{
+	padding-top:0px;
+}
+#emptybowl-content{
+	display:block;
+}
+}
+
+.footer-img{
+	height:50px;
+}

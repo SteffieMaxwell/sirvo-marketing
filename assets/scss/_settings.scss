@@ -1,0 +1,66 @@
+$primary-color: #FF4601;
+$secondary-color: #FFFFFF;
+$alert-color: #F04124;
+$success-color: #43AC6A;
+$warning-color: #F08A24;
+$info-color: #A0d3e8;
+
+@font-face {
+    font-family: FuturaLight;
+    src: url("../fonts/FuturaStd-Light.otf");
+}
+@font-face {
+    font-family: FuturaMedium;
+    src: url("../fonts/FuturaStd-Medium.otf");
+}
+$font-family-sans-serif: FuturaMedium;
+$font-family-serif: FuturaLight;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+.white-button{
+	letter-spacing:.2em !important;
+	border:2px solid black !important;
+	font-weight:bold !important;
+	background-color:transparent !important;
+	color:black !important;
+	border-radius:3px !important;
+}
+.clear-button{
+	letter-spacing:.2em !important;
+	border:2px solid white !important;
+	font-weight:bold !important;
+	background-color:transparent !important;
+	color:white !important;
+	border-radius:3px !important;
+}
+body{
+	text-transform:uppercase;
+	margin:0px;
+	padding:0px;
+	letter-spacing:.2em;
+}
+
+//Things we hide for various animation reasons at the very top
+#early-access-form,.logo,#fullbowl-header,#emptybowl-header,.get,.tagline{
+	display: none;
+}
+#header{
+position: fixed;
+top: 0;
+left: 0;
+height: 40px;
+z-index: 70;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.footer-links{
+position: fixed;
+bottom: 0;
+height: 40px;
+z-index: 70;
+width: 100%;
+padding: 0;
+margin: 0;
+}
